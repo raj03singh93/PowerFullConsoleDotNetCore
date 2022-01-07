@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PowerfulConsole.Service.Interface
+﻿namespace PowerfulConsole.Service.Interface
 {
+    /// <summary>
+    /// Console processor Interface
+    /// </summary>
     public interface IProjectProcessor
     {
+        /// <summary>
+        /// Processes a task.
+        /// </summary>
         void Process();
     }
 }
